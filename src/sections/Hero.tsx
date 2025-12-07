@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero3D } from "../components/3d/Hero3D";
+// import { Hero3D } from "../components/3d/Hero3D";
 import { config } from "../data/config";
 import { Button } from "../components/Button";
 import { generateWhatsAppLink } from "../utils";
@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
       id="home"
       className="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden bg-gradient-to-b from-orange-50 via-white to-white"
     >
-      <Hero3D />
+      {/* <Hero3D /> */}
 
       <div className="container mx-auto px-4 md:px-6 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Text Content */}
